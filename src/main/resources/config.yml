@@ -1,0 +1,127 @@
+damage: 65
+spawn:
+  world: Practise
+  x: 0
+  y: 65
+  z: 0
+welcome:
+- ''
+- ''
+- '&7Welcome to the server. Please see the rules at /rules.'
+- ''
+- ''
+rules:
+- ''
+- ''
+- '&c1. &7No hacking/glitching/exploiting.'
+- '&c2. &7No harassment.'
+- '&c3. &7No offensive remarks.'
+- '&c4. &7No teams bigger than 2.'
+- '&c5. &7Respect staff decisions.'
+- ''
+- ''
+punishments:
+  chat:
+    name: 'Chat'
+    description: 'Click to punish for chat violations.'
+    commands:
+    - 'tempmute $player 10minute'
+announcements:
+- 'Select kits using /kits.'
+- 'Use /staff <message> to message staff.'
+- 'Look up stats using /info [player].'
+- 'Join the community at https://discord.gg/.'
+punishments-gui: 9
+punishments:
+  chat:
+    name: '&a&lChat Violation'
+    description: '&7Rules 2, 3, 5'
+    slot: 2
+    ladder:
+    - ''
+  gameplay_minor:
+    name: '&eMinor Gameplay Violation'
+    description: '&7Rule 4'
+    slot: 4
+    ladder:
+    - ''
+  gameplay_major:
+    name: '&c&lMajor Gameplay Violation'
+    description: 'Rule 1'
+    slot: 6
+    ladder:
+    - ''
+blocked:
+  message: '&7That command could not be found.'
+  list:
+  - '/help'
+  - '/?'
+  - '/ver'
+  - '/version'
+  - '/icanhasbukkit'
+  - '/me'
+  - '/tell'
+  - '/obreload'
+  - '/openboardreload'
+  - '/obr'
+  - '/papi'
+  - '/placeholderapi'
+  - '/clipsplaceholderapi'
+  - '/daddy'
+  - '/pl'
+  - '/plugins'
+  - '/viaver'
+  - '/viaversion'
+  - '/vvbukkit'
+  - '/achievement'
+  - '/ban-ip'
+  - '/banlist'
+  - '/blockdata'
+  - '/clear'
+  - '/clone'
+  - '/debug'
+  - '/defaultgamemode'
+  - '/deop'
+  - '/difficulty'
+  - '/effect'
+  - '/enchant'
+  - '/entitydata'
+  - '/execute'
+  - '/fill'
+  - '/gamemode'
+  - '/gamerule'
+  - '/give'
+  - '/kick'
+  - '/kill'
+  - '/list'
+  - '/me'
+  - '/pardon'
+  - '/pardon-ip'
+  - '/particle'
+  - '/playsound'
+  - '/replaceitem'
+  - '/save-all'
+  - '/save-off'
+  - '/save-on'
+  - '/say'
+  - '/scoreboard'
+  - '/seed'
+  - '/setblock'
+  - '/setidletimeout'
+  - '/setworldspawn'
+  - '/spawnpoint'
+  - '/spreadplayers'
+  - '/stop'
+  - '/summon'
+  - '/tellraw'
+  - '/testfor'
+  - '/testforblock'
+  - '/testforblocks'
+  - '/time'
+  - '/title'
+  - '/toggledownfall'
+  - '/trigger'
+  - '/weather'
+  - '/whitelist'
+  - '/worldborder'
+  - '/xp'

@@ -1,0 +1,5 @@
+name: Practise
+author: Arraying
+version: 0.2
+main: de.arraying.practise.Practise
+softdepend: [PlaceholderAPI]
